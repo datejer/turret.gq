@@ -1,0 +1,122 @@
+html {
+	height: 100%;
+}
+
+body {
+	margin: 0;
+	height: 100%;
+	background-color: black;
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+h1 {
+	font-size: 9em;
+	margin: 0;
+	animation: rainbow 3s;
+	animation-iteration-count: infinite;
+}
+
+img {
+	max-width: 90vw;
+}
+
+@media only screen and (max-width: 950px) {
+	h1 {
+		font-size: 8em;
+	}
+}
+
+@media only screen and (max-width: 750px) {
+	h1 {
+		font-size: 6em;
+	}
+}
+
+@media only screen and (max-width: 575px) {
+	h1 {
+		font-size: 5em;
+	}
+}
+
+@media only screen and (max-width: 500px) {
+	h1 {
+		font-size: 4em;
+	}
+}
+
+@media only screen and (max-width: 400px) {
+	h1 {
+		font-size: 3em;
+	}
+}
+
+@keyframes rainbow {
+	0% {
+		color: #d65c97;
+	}
+	5% {
+		color: #5cd666;
+	}
+	10% {
+		color: #a55cd6;
+	}
+	15.0% {
+		color: #5c7cd6;
+	}
+	20% {
+		color: #d65c7a;
+	}
+	25% {
+		color: #81d65c;
+	}
+	30.0% {
+		color: #835cd6;
+	}
+	35% {
+		color: #685cd6;
+	}
+	40% {
+		color: #5c9dd6;
+	}
+	45% {
+		color: #5cd670;
+	}
+	50% {
+		color: #d6625c;
+	}
+	55.0% {
+		color: #d6835c;
+	}
+	60.0% {
+		color: #d6605c;
+	}
+	65% {
+		color: #be5cd6;
+	}
+	70% {
+		color: #5c8dd6;
+	}
+	75% {
+		color: #95d65c;
+	}
+	80% {
+		color: #d69d5c;
+	}
+	85.0% {
+		color: #d65c81;
+	}
+	90% {
+		color: #5cd666;
+	}
+	95% {
+		color: #d67e5c;
+	}
+	100% {
+		color: #64d65c;
+	}
+}
